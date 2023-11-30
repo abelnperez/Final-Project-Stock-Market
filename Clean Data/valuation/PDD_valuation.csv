@@ -1,0 +1,8 @@
+enterprise_id,years,pe_ratio,pe_ratio_without_nri,price-to-owner-earnings,pb_ratio,price-to-tangible-book,price-to-free-cash-flow,price-to-operating-cash-flow,ps_ratio,peg_ratio,ev-to-revenue,ev-to-ebitda,ev-to-ebit,earnings_yield_(joel_greenblatt)_%,forward_rate_of_return_(yacktman)_%,shiller_pe_ratio,cyclically_adjusted_pb_ratio,cyclically_adjusted_ps_ratio,cyclically_adjusted_price-to-fcf,dividend_yield_%,fcf_yield_%
+58,2017,N/A,N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,2018,N/A,N/A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+58,2019,At Loss,At Loss,0,9.14,10.59,14.81,14.75,8.74,0,11.45,-15.46,-14.71,-6.8,0,0,0,0,0,0,4.5
+58,2020,At Loss,At Loss,0,12.51,13.61,20.75,20.7,10.18,0,9.09,-44.62,-39.99,-2.5,0,0,0,0,0,0,4.8
+58,2021,At Loss,At Loss,0,23.92,24.44,49.19,49.12,23.28,0,23.01,-239.97,-210.44,-0.48,0,0,0,0,0,0,1.96
+58,2022,68.27,68.75,68.11,6.25,6.31,20.81,18.43,5.65,0,4.14,31.07,36.43,2.74,0,0,0,0,0,0,5.43
+58,2023,25.94,25.83,0,6.37,6.38,17.11,16.88,6.27,0,4.73,15.76,16.94,5.9,0,0,0,0,0,0,6.38

@@ -1,0 +1,5 @@
+enterprise_id,years,revenue_per_share,ebitda_per_share,ebit_per_share,earnings_per_share_(diluted),eps_without_nri,owner_earnings_per_share_(ttm),free_cash_flow_per_share,operating_cash_flow_per_share,cash_per_share,dividends_per_share,book_value_per_share,tangible_book_per_share,total_debt_per_share,month_end_stock_price
+26,2020,2.299,-0.801,-0.969,-1.42,-0.86,0,-0.801,-0.602,1.807,0,-7.143,-7.427,0,0
+26,2021,2.667,-0.211,-0.407,-0.9,-0.317,0,-0.172,-0.112,1.499,0,-6.666,-6.9,0,0
+26,2022,3.942,-0.684,-0.803,-1.08,-0.935,0,-0.255,-0.169,4.428,0,4.144,3.924,0,12.51
+26,2023,2.517,-0.448,-0.584,-0.59,-0.667,0,-0.776,-0.725,3.902,0,3.77,3.666,0.623,5.08
