@@ -1,10 +1,10 @@
-#  | Final Project: Stock Market ETL and Visualization 📊📈📉
+#  | Final Project: Stock Market ETL and Visualization 📊📈
 
 ![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/shutterstock_1917266012-750x406.jpg)
 
 ## Project Description  
 
-We have received a request from one of our biggest clients, Capital Stone Ventures & Co,  to create a product that can satisfy the necesity of their shareholders. The main idea is to create a dashboard than can gather and visualize the financial data from all the stock companies from de USA. The task instead is not easy, we have to do first an extensive market analisys to find the main source where we can extract the data. After that the follow step is the extraction of the data and the cleaning of it, once cleaned and prepared we need to gather all the data and storage it in a data base and create the relations between the data. Once the data is extracted, cleaned and gathered we enter in the last step, the visualization. The objective of this last step is to create an interactive dashboard where the clients can have at first shight all the important metric so they can take the proper decisions in order to invest their money wisely.
+We have received a request from one of our biggest clients, Capital Stone Ventures & Co, to create a product that can satisfy the needs of their shareholders. The main idea is to create a dashboard that can gather and visualize the financial data from all the stock companies in the USA. Although the task is not easy, we first need to conduct an extensive market analysis to find the main source from which we can extract the data. After that, the next step is the extraction of the data and its cleaning. Once cleaned and prepared, we need to gather all the data and store it in a database, creating relationships between the data. Once the data is extracted, cleaned, and gathered, we enter the last step: visualization. The objective of this final step is to create an interactive dashboard where clients can, at first glance, see all the important metrics so they can make informed decisions regarding their investments.
 
 ![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/stock_market_update.jpeg.jpg)
 
@@ -12,27 +12,29 @@ We have received a request from one of our biggest clients, Capital Stone Ventur
 
 - **Data Extraction and EDA**
 
-To achive this milestone we had to investigate many webapages and websites to find the best and more complete data from the web. After a strong analisys we decided tha the best option for our project was the website gurufocus.com which is a web with an exahustive financial data for investing. The way to get the data was trough the Guru Focus API or Application Programming Interface, we had to get the token and then explore it to get the relevant information we were looking for. We created a function with Python to extract all the relevant information for a list of companies we selected before. We were able to get the following information from the last 30 years from 86 companies until today, all the information was collected in JSON files, one of each for each company, having a total of 602 JSON files.
+To achieve this milestone, we had to investigate many web pages and websites to find the best and most complete data available on the web. After a thorough analysis, we decided that the best option for our project was the website gurufocus.com, which provides exhaustive financial data for investing. The way to obtain the data was through the **Guru Focus API** (https://www.gurufocus.com/api/overview), or Application Programming Interface. We obtained the token and then explored it to gather the relevant information we were looking for. We created a Python function to extract all the relevant information for a list of companies we had selected beforehand. We were able to retrieve the following information from the last 30 years for 86 companies up to the present day. All the information was collected in JSON files, with one file for each company, resulting in a total of 602 JSON files."
 
-- Per Share Data
-- Ratios
-- Income Statement
-- Balance Sheet
-- Cashflow Statement 
-- Valuation Ratios
-- Valuation and Quality
+   - **Per Share Data**
+   - **Ratios**
+   - **Income Statement**
+   - **Balance Sheet**
+   - **Cashflow Statement**
+   - **Valuation Ratios**
+   - **Valuation and Quality**                             
+   - **Ratios**
+                   
 
 - **Data Cleaning**
 
-Once we got all the data and after a rigorous Exploratory Data Analisys we decided the best way to go was to group all the information from each company and from each field in one single CSV. To do that we created a complex function with Python to be able to work with all the files (remember we had 602 JSON files after the data extraction from the API). It took as some time to test the function but we were able to make it work succesfully. Once the function was working we were able to reduce the JSON files to 7 files. 
+"Once we gathered all the data and completed a rigorous Exploratory Data Analysis, we concluded that the best approach was to consolidate all the information from each company and each field into a single CSV file. To achieve this, we developed a sophisticated Python function capable of processing all the files (remember, we had 602 JSON files after extracting the data from the API). Testing the function took some time, but we successfully made it work. With the functioning function, we were able to condense the JSON files into just 7 files."
 
 - **Data Load**
 
-Now with our files cleaned and the data structured we decided to create 2 new tables, one for the companies name and id and the second one for the years and the year id, doing this we could relationate all our data files and create the ERD relation in MySQL. We created the data base from Python and the tables as well with coding. 
+"Now, with our files cleaned and the data structured, we decided to create two new tables: one for the companies' names and IDs, and the second one for the years and the year IDs. By doing this, we were able to establish relationships among all our data files and create the Entity-Relationship Diagram (ERD) in MySQL. We created the database and the tables from Python using code."
 
 - **Data Visualization**
 
-Finally we entered in the last, but not least, step of our project, to make it visual! In this case we decided to create the Dashboard with PowerBI which is a powerful visualization tool. We selected the most relevant metrics, the best ratios and after a lot of headaches we were able to have our dashboard working successfully. We selected a gray background and contract colors to create the bars and charts, we applied some filters and the result can be seen bellow. We are very proud with our product and it is being under testing by the client, the next step is to make it available for the public, we hope you like it!
+Finally, we entered the last, but not least, step of our project—to make it visual! In this case, we decided to create the dashboard using Power BI, a powerful visualization tool. We selected the most relevant metrics and the best ratios, and after overcoming several challenges, we successfully had our dashboard working. We opted for a gray background and contrasting colors to enhance the bars and charts. We applied some filters, and the result can be seen below. We are very proud of our product, which is currently undergoing testing by the client. The next step is to make it available to the public. We hope you like it!
 
 
 ![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/dashboard.PNG)
@@ -80,7 +82,9 @@ The repository is divided in the following files:
 
     - **dashboard_stock**: the jewel crown, the dashboard to see all the metrics and financial information in one single place
    
+## Next Steps
 
+The next step in the project is to extend the dashboard to have the whole world companies in the dashboard and to optimize its visualization once we get the clients approval.
 
 ## Links & Resources 📂 📂 📂 
 
