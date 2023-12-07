@@ -1,10 +1,12 @@
 #  | Final Project: Stock Market ETL and Visualization 📊📈📉
 
-![]()
+![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/shutterstock_1917266012-750x406.jpg)
 
 ## Project Description  
 
 We have received a request from one of our biggest clients, Capital Stone Ventures & Co,  to create a product that can satisfy the necesity of their shareholders. The main idea is to create a dashboard than can gather and visualize the financial data from all the stock companies from de USA. The task instead is not easy, we have to do first an extensive market analisys to find the main source where we can extract the data. After that the follow step is the extraction of the data and the cleaning of it, once cleaned and prepared we need to gather all the data and storage it in a data base and create the relations between the data. Once the data is extracted, cleaned and gathered we enter in the last step, the visualization. The objective of this last step is to create an interactive dashboard where the clients can have at first shight all the important metric so they can take the proper decisions in order to invest their money wisely.
+
+![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/stock_market_update.jpeg.jpg)
 
 ## Steps
 
@@ -33,16 +35,9 @@ Now with our files cleaned and the data structured we decided to create 2 new ta
 Finally we entered in the last, but not least, step of our project, to make it visual! In this case we decided to create the Dashboard with PowerBI which is a powerful visualization tool. We selected the most relevant metrics, the best ratios and after a lot of headaches we were able to have our dashboard working successfully. We selected a gray background and contract colors to create the bars and charts, we applied some filters and the result can be seen bellow. We are very proud with our product and it is being under testing by the client, the next step is to make it available for the public, we hope you like it!
 
 
+![](https://github.com/abelnperez/Final-Project-Stock-Market/blob/main/images/project_images/dashboard.PNG)
 
 
-
-
-
-
-
-
-
-![]()
 
 ## Information  🎞🕹
 
